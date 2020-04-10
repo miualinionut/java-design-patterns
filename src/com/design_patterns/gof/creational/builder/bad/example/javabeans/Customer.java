@@ -1,7 +1,8 @@
-package com.design_patterns.javabeans;
+package com.design_patterns.gof.creational.builder.bad.example.javabeans;
 
 import java.util.Date;
 
+// cannot have immutability with this approach
 public class Customer {
 	private Gender gender;
 	private String surname;

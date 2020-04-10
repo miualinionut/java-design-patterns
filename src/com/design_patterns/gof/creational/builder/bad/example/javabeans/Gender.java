@@ -1,4 +1,4 @@
-package com.design_patterns.javabeans;
+package com.design_patterns.gof.creational.builder.bad.example.javabeans;
 
 public enum Gender {
 	MALE("Mr."), FEMALE("Ms.");
