@@ -1,13 +1,13 @@
-package com.design_patterns.gof.creational.factorymethod;
+package com.design_patterns.gof.creational.factory.abstractfactory;
 
-public abstract class AbstractAccount {
+abstract public class AbstractAlphaAccount {
 	private String id; 
 
 	double balance;
         
     abstract void verifyAccount();
 
-    public AbstractAccount(double balance){
+    public AbstractAlphaAccount(double balance){
         this.balance = balance;
     }
     
@@ -23,4 +23,5 @@ public abstract class AbstractAccount {
     public String toString(){
         return "Balance: " + (Math.round(balance * 100) / 100d);
     }
+    
 }

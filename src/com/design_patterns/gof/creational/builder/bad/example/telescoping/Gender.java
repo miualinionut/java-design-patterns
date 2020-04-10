@@ -1,4 +1,4 @@
-package com.design_patterns.telescoping;
+package com.design_patterns.gof.creational.builder.bad.example.telescoping;
 
 public enum Gender {
 	MALE("Mr."), FEMALE("Ms.");

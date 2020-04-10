@@ -1,4 +1,4 @@
-package com.design_patterns.gof.creational.factorymethod;
+package com.design_patterns.gof.creational.factory.factorymethod;
 
 public class AccountFactory {
 

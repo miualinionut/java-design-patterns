@@ -1,4 +1,4 @@
-package com.design_patterns.gof.creational.abstractfactory;
+package com.design_patterns.gof.creational.factory.abstractfactory;
 
 public class FactoryProducer {
 	public static AbstractFactory newFactory(String choice){ 
@@ -12,7 +12,7 @@ public class FactoryProducer {
 	}
 	
 	public static void main(String[] args) { 
-		AbstractFactory alphaAccountFactory = FactoryProducer.newFactory("ALPHA"); 
+		AbstractFactory alphaAccountFactory = FactoryProducer.newFactory("ALPHA");
 		AbstractAlphaAccount alphaAccount1 = alphaAccountFactory.newAlphaAccount("CHECKING");
 		alphaAccount1.verifyAccount();
 		AbstractAlphaAccount alphaAccount2 = alphaAccountFactory.newAlphaAccount("SAVING");
